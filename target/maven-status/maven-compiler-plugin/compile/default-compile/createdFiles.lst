@@ -1,0 +1,14 @@
+com\usuario\empresa\web\vitivinicolaubb\servicios\CooperadoService.class
+com\usuario\empresa\web\vitivinicolaubb\controladores\DireccionController.class
+com\usuario\empresa\web\vitivinicolaubb\controladores\ClaveUsuarioController.class
+com\usuario\empresa\web\vitivinicolaubb\controladores\CooperadoController.class
+com\usuario\empresa\web\vitivinicolaubb\entidades\Cooperado.class
+com\usuario\empresa\web\vitivinicolaubb\entidades\Usuario.class
+com\usuario\empresa\web\vitivinicolaubb\servicios\DireccionService.class
+com\usuario\empresa\web\vitivinicolaubb\servicios\UsuarioService.class
+com\usuario\empresa\web\vitivinicolaubb\controladores\UsuarioController.class
+com\usuario\empresa\web\vitivinicolaubb\servicios\ServiceImpl.class
+com\usuario\empresa\web\vitivinicolaubb\controladores\InicioController.class
+com\usuario\empresa\web\vitivinicolaubb\servicios\ClaveUsuarioService.class
+com\usuario\empresa\web\vitivinicolaubb\entidades\ClaveUsuario.class
+com\usuario\empresa\web\vitivinicolaubb\entidades\Direccion.class

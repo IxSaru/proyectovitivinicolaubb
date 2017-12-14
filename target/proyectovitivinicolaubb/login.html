@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+        <script type="text/javascript" src="js/cambiarPestanna.js"></script>
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="contenedor">
+            <div Align="center" class="titulo">Cooperativa de Vitivinicolas</div>
+              <!-- -->
+              <div id="login" >
+                <form name="f" action="j_spring_security_check" method="POST">
+	<table>
+		<tr>
+			<td>Usuario:</td>
+			<td><input type='text' name='j_username' value='' /></td>
+		</tr>
+		<tr>
+			<td>Contrase&ntilde;a:</td>
+			<td><input type='password' name='j_password'></td>
+		</tr>
+	
+		<tr>
+			<td><input type="checkbox" name="_spring_security_remember_me"></td>
+			<td>Recordar contrase&ntilde;a</td>
+		</tr>
+	
+		<tr>
+			<td colspan='2'><input name="submit" type="submit"></td>
+		</tr>
+		<tr>
+			<td colspan='2'><input name="reset" type="reset"></td>
+		</tr>
+	</table>
+	</form>
+              </div>
+              <!-- -->
+            <div id="pestanas">
+                <ul id=lista>
+                    <li id="pestana1"><a href='javascript:cambiarPestanna(pestanas,pestana1);'>Inicio</a></li>
+                    <li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>Productores</a></li>
+                    <li id="pestana3"><a href='javascript:cambiarPestanna(pestanas,pestana3);'>Nosotros</a></li>
+                </ul>
+            </div>
+
+            <body onload="javascript:cambiarPestanna(pestanas,pestana1);">
+
+            <div id="contenidopestanas">
+                <div id="cpestana1">
+                  Publicidad o alguna información relevante.
+                </div>
+                <div id="cpestana2">
+                  Listado de los productores.
+                </div>
+                <div id="cpestana3">
+                  Información de la Cooperativa
+                </div>
+               
+
+                  <!-- -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

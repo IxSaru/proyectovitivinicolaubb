@@ -1,0 +1,96 @@
+body {
+    background: url('1.jpg') no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;;
+}
+
+.contenedor{
+    width: 1080px;
+    margin: auto;
+    background: black;
+    color: bisque;
+    padding: 20px 15px 50px 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.8);
+    background: #734F1A;
+}
+
+.contenedor .titulo{
+    font-size: 3.5ex;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#login{
+  width:250px;
+  float: right;
+  border-radius: 5px;
+  font-family:raleway;
+  border: 5px solid #ccc;
+  padding: 30px 40px 25px;
+}
+
+#pestanas {
+    margin-top: 200px;
+    float: top;
+    font-size: 3ex;
+    font-weight: bold;
+}
+
+#pestanas ul{
+    margin-left: -40px;
+}
+
+#pestanas li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    margin: 0px 2px -2px -0px;
+    background: darkgrey;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid bisque;
+    border-bottom: dimgray;
+    padding: 0px 20px 0px 20px;
+}
+
+#pestanas a:link{
+    text-decoration: none;
+    color: bisque;
+}
+
+#contenidopestanas{
+    clear: both;
+    background: dimgray;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border: 2px solid bisque;
+    width: 1025px;
+}
+
+#contenidopestanas div{
+  padding: 20px 0px 20px 20px;
+}
+
+#pestanas #pestana1, #cpestana1{
+  background: #8A0829;
+}
+
+#pestanas #pestana2, #cpestana2{
+  background: #4C0B5F;
+}
+
+#pestanas #pestana3, #cpestana3{
+  background: #8A0829;
+}
+
+#pestanas #pestana4, #cpestana4{
+  background: #4C0B5F;
+}
+
+#pestanas #pestana5, #cpestana5{
+  background: #8A0829;
+}

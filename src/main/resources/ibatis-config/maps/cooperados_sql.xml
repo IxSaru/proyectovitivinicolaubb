@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="cooperadosResult">
+	<!-- resultmaps -->
+	<resultMap id="cooperadoResult" class="com.usuario.empresa.web.vitivinicolaubb.entidades.Cooperado">
+		<result property="rut" 		column="RUT" />
+		<result property="nombre" 	column="NOMBRE" />
+		<result property="vigente" 	column="VIGENTE" />
+		<result property="idDireccion" 	column="IDDIRECCION" />
+	</resultMap>
+
+	<!-- sqls -->
+	<select id="getCooperados" resultMap="cooperadoResult">
+		SELECT 
+		RUT, NOMBRE, VIGENTE,IDDIRECCION
+		FROM COOPERADO;
+	    
+	</select>
+	
+	<insert id="insertCooperado" parameterClass="com.usuario.empresa.web.vitivinicolaubb.entidades.Cooperado">
+			INSERT COOPERADO (RUT, NOMBRE, VIGENTE, IDDIRECCION)
+			VALUES (#rut#, #nombre#,#vigente#,#idDireccion#);
+	</insert> 
+	
+	
+
+</sqlMap>
